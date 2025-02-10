@@ -36,7 +36,8 @@ $ rm -rf pt-BR/.git/
 Agora basta informar ao Laravel de que há outro idioma. Para isso, edite o arquivo `/config/app.php` e altere o valor da propriedade `locale` para `pt-br`
 
 ```
-'locale' => 'pt-br',
+'locale' => 'pt-Br' sistemas case sensitive(unix),
+'locale' => 'pt-br' sistemas case insensitive(windows)
 ```
 
 ## Contribuição
