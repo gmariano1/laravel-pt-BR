@@ -33,10 +33,11 @@ Agora basta remover os arquivos gerados automaticamente pelo git para ter a trad
 $ rm -rf pt-BR/.git/
 ```
 
-Agora basta informar ao Laravel de que há outro idioma. Para isso, edite o arquivo `/config/app.php` e altere o valor da propriedade `locale` para `pt-br`
+Agora basta informar ao Laravel de que há outro idioma. Para isso, edite o arquivo `/config/app.php` e altere o valor da propriedade `locale` para `pt-br` ou `pt-BR`
 
 ```
-'locale' => 'pt-br',
+'locale' => 'pt-BR' sistemas case sensitive(unix),
+'locale' => 'pt-br' sistemas case insensitive(windows)
 ```
 
 ## Contribuição
